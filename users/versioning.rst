@@ -41,6 +41,12 @@ you set this value to 5, if a file is replaced 5 times on a remote device, you
 will see 5 time-stamped versions on that file in the ".stversions" folder on
 the other devices sharing the same folder.
 
+A configuration option is available to clean the trash can from files older
+than a specified number of days. If this is set to a positive number of days,
+files will be removed when they have been in the trash can that long. Setting
+this to zero prevents any files from being removed from the trash can
+automatically.
+
 Staggered File Versioning
 -------------------------
 
